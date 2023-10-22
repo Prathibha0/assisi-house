@@ -1,0 +1,50 @@
+/* Header.css */
+
+.header {
+    background-color: rgba(139, 69, 19, 0.8); /* Brown color with 0.8 opacity */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .search {
+    /* Styles for the search bar */
+    flex: 0 0 100px; /* Fixed width for the square search box */
+    height: 10px;
+    background-color: #fff; /* Background color for the search box */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px; /* Margin to separate the search box from the navigation links */
+  }
+  
+  .search-input {
+    /* Styles for the search input inside the search box */
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .navigation {
+    /* Styles for navigation links, adjust as needed */
+    display: flex;
+  }
+  
+  .navigation a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  

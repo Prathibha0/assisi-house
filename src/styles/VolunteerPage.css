@@ -1,0 +1,88 @@
+/* VolunteerPage.css */
+
+.volunteer-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.volunteer-header {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.volunteer-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.apply-now-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.apply-now-button:hover {
+  background-color: #0056b3;
+}
+
+
+.carousel-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.carousel-item {
+  min-width: 300px; /* Adjust the minimum width of each carousel slide */
+  margin-right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  scroll-snap-align: start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
